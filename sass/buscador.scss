@@ -1,0 +1,68 @@
+.encabezado {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    .en_en_cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.en_buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    h1 {
+        text-align: center;
+        margin: 0 0 1em 0;
+        color: white;
+    }
+    .buscador {
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: 40em;
+        input {
+            height: 2.5em;
+            width: 90%;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            &:focus {
+                outline: 0px;
+            }
+        }
+        a {
+            img {
+                width: 30px;
+            }
+        }
+    }
+}
+
+.cantidad {
+    .cant_cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2em 0 2em;
+        .numero {
+            font-size: 2em;
+            font-weight: bold;
+            color: #00A8D1;
+        }
+    }
+}

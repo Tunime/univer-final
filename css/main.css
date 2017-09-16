@@ -1,3 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+.encabezado {
+  background: url("../img/fondo.png"); }
+  .encabezado .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 6em 0 6em; }
+    .encabezado .menu figure {
+      width: 50px; }
+      .encabezado .menu figure img {
+        width: 100%; }
+    .encabezado .menu select option div {
+      display: flex;
+      flex-direction: column; }
 
+.encabezado {
+  height: 80vh;
+  display: flex;
+  flex-direction: column; }
+  .encabezado .en_en_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+
+.en_buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; }
+  .en_buscador h1 {
+    text-align: center;
+    margin: 0 0 1em 0;
+    color: white; }
+  .en_buscador .buscador {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 40em; }
+    .en_buscador .buscador input {
+      height: 2.5em;
+      width: 90%;
+      border-radius: 10px;
+      border: none;
+      font-size: 20px; }
+      .en_buscador .buscador input:focus {
+        outline: 0px; }
+    .en_buscador .buscador a img {
+      width: 30px; }
+
+.cantidad .cant_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; }
+.cantidad li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2em 0 2em; }
+  .cantidad li .numero {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00A8D1; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+figure {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,25 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  'encabezado': {
-    'background': '#4F4555'
-  },
-  'encabezado menu': {
-    'display': 'flex',
-    'justifyContent': 'space-between',
-    'alignItems': 'center',
-    'padding': [{ 'unit': 'em', 'value': 2 }, { 'unit': 'em', 'value': 6 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'em', 'value': 6 }]
-  },
-  'encabezado menu figure': {
-    'width': [{ 'unit': 'px', 'value': 50 }]
-  },
-  'encabezado menu figure img': {
-    'width': [{ 'unit': '%H', 'value': 1 }]
-  },
+  'import': 'url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i")',
   '*': {
     'padding': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
-    'fontSize': [{ 'unit': 'px', 'value': 14 }]
+    'fontFamily': ''Open Sans', sans-serif'
   },
   'a': {
     'textDecoration': 'none',

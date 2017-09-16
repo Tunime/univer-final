@@ -1,0 +1,23 @@
+.encabezado{
+    background: url("../img/fondo.png");
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 6em 0 6em;
+        figure{
+            width: 50px;
+            img{
+                width: 100%;
+            }
+        }
+        select{
+            option{
+                div{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
