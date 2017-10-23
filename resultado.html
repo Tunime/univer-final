@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link href="css/main.css" rel="stylesheet">
         <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
 
     </head>
     <script language="javascript">     
@@ -67,27 +68,40 @@
                 <div class="en_en_cont">
                     <h1>Encuentra los examenes<br>que nesesitas</h1>
                     <form id="formulario" method="Post" class="buscador">
-                        <input id="texto" name="examenes, practicas..." type="text"/>
+                        <input id ="texto"name="examenes, practicas..." type="text">
                         <a   href="#" name="enviar" value="Enviar" onclick="recibir();"><img src="img/lupa.png" alt="lupa"></a>
                     </form>
                 </div>
             </div>
 
         </header>
-        <div class="container">
-          <div class="row">
-            <div class="col-7 container--informacion">
-              <h3>INFORMACION</h3>
-              <p>Univer es un proyecto el cual el único objetivo es que los alumnos<br> practiquemos con exámenes pasados los exámenes son recibidos por los<br> mismos alumnos. Desarrollado por alumnos para los mismos.<br> Además de examenes tambien encontraras silabus, trabajos y parcticas</p>
-            </div>
-            <div class="col container--datos">
-              <h4>DATOS</h4>
-              <li>150 Examenes</li>
-              <li>88 Practicas</li>
-              <li>60 Trabajos</li>
-              <li>32 Silabus</li>
-            </div>
+        <section class="contenido">
+          <div  id="contenido-a" class="contenido--cards">
           </div>
+          <div class="contenido--datos">
+              <section class="contenido--card">
+              <div class="card--dato">
+                <h5>INFORMACION</h5>
+                <p>Univer es un proyecto el cual el único objetivo es que los alumnos practiquemos con exámenes pasados los exámenes son recibidos por los mismos alumnos. Desarrollado por alumnos para los mismos. Además de examenes tambien encontraras silabus, trabajos y parcticas</p>
+                <i>31 de julio 2017</i>
+                <li>
+                  <a href="#" title="card">UNIVER</a>
+                </li>
+              </div>
+          </section>
+          </div>
+        </section>
+        <footer>
+          <li><a href="resultado.html?variable=Examen" title="examenes">EXAMENES</a></li>
+          <li><a href="#" title="examenes">PRACTICAS</a></li>
+          <li><a href="resultado.html?variable=silabus" title="examenes">SILABUS</a></li>
+          <li><a href="resultado.html?variable=trabajo" title="examenes">TRABAJOS</a></li>
+        </footer>
+        <div class="contribuidor">
+          <p>Alvaro morales caballero</p>
         </div>
+        <ul>
+          
+        </ul>
     </body>
 </html>

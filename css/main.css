@@ -1,21 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+.fondo--index{
+  background: #ecf0f1;
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
+a:hover{
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+figure {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
 .encabezado {
   background: url("../img/fondo.png"); }
-  .encabezado .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em 6em 0 6em; }
-    .encabezado .menu figure {
-      width: 50px; }
-      .encabezado .menu figure img {
-        width: 100%; }
-    .encabezado .menu select option div {
-      display: flex;
-      flex-direction: column; }
+  .menu{
+    background: #161b23 !important;
+  }
+  .menu--a li a{
+      color: white !important;
+    }
+  .menu--a li a:hover{
+      color: #9fb1d1 !important;
+  }
+  .navbar-light .navbar-toggler{
+    border-color:white;
+  }
+  .white{
+    color: white;
+  }
 
 .encabezado {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column; }
   .encabezado .en_en_cont {
@@ -51,44 +76,111 @@
         outline: 0px; }
     .en_buscador .buscador a img {
       width: 30px; }
-
-.cantidad .cant_cont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20vh; }
-.cantidad li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 2em 0 2em; }
-  .cantidad li .numero {
-    font-size: 2em;
-    font-weight: bold;
-    color: #00A8D1; }
-
 * {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif; }
-
-a {
-  text-decoration: none;
-  padding: 0;
-  margin: 0; }
-
-li {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-figure {
-  padding: 0;
-  margin: 0; }
-
-ul {
-  padding: 0;
-  margin: 0; }
-
+.selector{
+  margin: 0 6em 0 0;
+}
+.selector--logo{
+  margin: 0 0 0 3em;
+}
 /*# sourceMappingURL=main.css.map */
+.container--informacion{
+  background: white;
+  border-radius: 10px;
+  padding: 0.5em 0 0 2em;
+  margin: 1em 1em 0 0;
+}
+.container--datos{
+  background: white;
+  border-radius: 10px;
+  padding: 0.5em 0 0 2em;
+  margin: 1em 1em 0 0;
+}
+.card--resultado{
+  margin: 1em 0 1em 0 0;
+}
+.contenido{
+  display: flex;
+  justify-content: center;
+}
+.contenido .titulo--resultado{
+  margin: 2em 0 0 0;
+}
+.contenido--card{
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  padding: 1em 1em;
+  width: 530px;
+  margin: 1em 2em 0 0;
+}
+.contenido--card .card--img{
+  width: 140px;
+  margin: 0 2em 0 0;
+}
+.contenido--card .card--img img{
+  width: 100%;
+}
+.contenido--card .card--dato{
+  color: black
+}
+.contenido--card .card--dato:hover{
+  color: #2980b9;
+}
+.contenido--datos{
+      margin: 5.7em 0 0 0;
+}
+footer{
+  width: 100%;
+  margin: 2em 0 0 0;
+  background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+footer li{
+  margin: 0 2em 0 0;
+}
+footer li a{
+  color: white;
+}
+.card--dato h5{
+  font-weight: 700;
+}
+.contribuidor{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 0 0 0;
+  background: #000000;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
